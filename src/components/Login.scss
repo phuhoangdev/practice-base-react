@@ -1,0 +1,42 @@
+.login-container {
+   margin-top: 40px;
+   .title {
+      font-size: 25px;
+      font-weight: 700;
+      padding: 10px 0;
+   }
+
+   .content-form {
+      input {
+         margin-bottom: 15px;
+         margin-top: 5px;
+      }
+
+      .btn-submit {
+         width: 100%;
+         padding: 8px;
+         margin: 20px 0;
+      }
+
+      .input-password {
+         position: relative;
+
+         .icons-eye {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            cursor: pointer;
+         }
+      }
+
+      .back {
+         cursor: pointer;
+         vertical-align: middle;
+         font-weight: 600;
+      }
+      .back > i {
+         font-size: 12px;
+         margin-right: 5px;
+      }
+   }
+}
